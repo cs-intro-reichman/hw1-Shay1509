@@ -24,7 +24,7 @@ public class TimeFormat {
 		}
 
 		else if (hours == 00) {
-			hours = 12;
+			hours = 0;
 		}
 		
 		System.out.print(hours + ":");
